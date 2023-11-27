@@ -4,7 +4,7 @@ getgenv().rcpt = "blu_matei"					---	Account name recieving pets
 
 getgenv().BabyFarm = false						---	Baby Farm Tasks while Trading
 getgenv().PerTrade = 18							---	Items per trade (9/18)
-getgenv().sndr = ""							---	Optional sender, but recipient will accept trades from anyone
+getgenv().sndr = "MVEN_1"							---	Optional sender, but recipient will accept trades from anyone
 getgenv().TrdAge = 6							---	Age of pet to trade (1=newborn..6=adult)
 getgenv().SkipAge = true						---	Skip the age check, trade all pets
 getgenv().TrdReg = true							---	Trade Non-Neon/Non-Mega pets

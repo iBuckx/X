@@ -4,10 +4,10 @@ getgenv().rcpt = "blu_matei"					---	Account name recieving pets
 
 getgenv().BabyFarm = false						---	Baby Farm Tasks while Trading
 getgenv().PerTrade = 18							---	Items per trade (9/18)
-getgenv().sndr = "MVEN_1"							---	Optional sender, but recipient will accept trades from anyone
+getgenv().sndr = ""							---	Optional sender, but recipient will accept trades from anyone
 getgenv().TrdAge = 6							---	Age of pet to trade (1=newborn..6=adult)
-getgenv().SkipAge = true						---	Skip the age check, trade all pets
-getgenv().TrdReg = true							---	Trade Non-Neon/Non-Mega pets
+getgenv().SkipAge = false						---	Skip the age check, trade all pets
+getgenv().TrdReg = false							---	Trade Non-Neon/Non-Mega pets
 getgenv().TrdNeon = true						---	Allow neons to be traded
 getgenv().TrdMega = true						---	Allow megas to be traded
 getgenv().SkipPets = false            	            	---	Skip Trading Any Pets
@@ -25,9 +25,9 @@ getgenv().Exclude4 = ""
 getgenv().Exclude5 = ""
 getgenv().SpecPet1 = "chameleon"							---	To Trade just specific pets
 getgenv().SpecPet2 = "squid"							---	Can Specify Partial Text to Match
-getgenv().SpecPet3 = ""							---	Or Full Pet Name
-getgenv().SpecPet4 = ""
-getgenv().SpecPet5 = ""
+getgenv().SpecPet3 = "mech"							---	Or Full Pet Name
+getgenv().SpecPet4 = "moth"
+getgenv().SpecPet5 = "vampire"
 getgenv().SpecPetwear1 = ""				---	Will Trade All if Enabled and Blank
 getgenv().SpecPetwear2 = ""
 getgenv().SpecVeh1 = ""					---	You Can Also specify Partial Text to Match
